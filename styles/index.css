@@ -1,0 +1,118 @@
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/intro_bg.jpg) center / cover;
+    position: relative;
+}
+.intro .contents {}
+.intro .contents h1 {
+    width: 222px;
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translateX(-50%) rotate(0) scale(1);
+    animation: introani2 1s linear infinite alternate;
+}
+.intro .contents h1 img{
+    width: 100%;
+}
+.intro .contents .scroll_down {
+    width: 80px;
+    position: absolute;
+    bottom: 60px; left: 50%;
+    transform: translate(-50%, 0);
+    animation: introani1 0.5s linear infinite alternate;
+}
+.intro .contents .scroll_down img {
+    width: 100%;
+}
+.intro .snoopy_map {
+    width: 282px;
+    position: absolute;
+    bottom: 0; left: 10%;
+    transform: translateY(0);
+    animation: introani3 0.5s linear infinite alternate;
+}
+.intro .snoopy_map img {
+    width: 100%;
+}
+@keyframes introani1 {
+    from{
+        transform: translate(-50%, -5px);
+    }
+    to{
+        transform: translate(-50%, 5px);
+    }
+}
+@keyframes introani2 {
+    from {
+        transform: translateX(-50%) rotate(1deg) scale(0.95);
+    }
+    to {
+        transform: translateX(-50%) rotate(-1deg) scale(1);
+    }
+}
+@keyframes introani3 {
+    from {
+        transform: translateY(2px);
+    }
+    to {
+        transform: translateY(-2px);
+    }
+}
+/* 1행 jeju--------------------------------------------------------------------------------------- */
+main {}
+.jeju {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: url(../images/jeju/jeju_bg.jpg) center / cover;
+}
+.jeju .jeju_container{
+    margin: 0 auto;
+}
+.jeju .jeju_container .title{
+    margin-bottom: 60px;
+}
+.jeju .jeju_container .title h2{
+    font-family: 'Gyeonggi_Title_Medium';
+    font-size: 1.563rem;
+}
+.jeju .jeju_container .title h1{
+    font-family: 'Gyeonggi_Title_Medium';
+    font-size: 2.375rem;
+    margin-bottom: 20px;
+}
+.jeju .jeju_container .title p{}
+.jeju .jeju_container .jeju_slide {
+    width: max-content;
+    display: flex;
+}
+.jeju .jeju_container .jeju_slide li > a{
+    display: inline-block;
+    width: 323px;
+    border: 3px solid #000;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.jeju .jeju_container .jeju_slide li > a img{
+    width: 100%;
+}
+.more_btn {
+    display: inline-block;
+    padding: 14px 48px;
+    font-weight: 500;
+    border: 2px solid #000;
+    margin-top: 60px;
+}
+/* 2행 summer -------------------------------------------------------------------- */
+.sumer {
+    height: 100vh;
+    background: #C2E2F9;
+}
+.sumer .left_wrap {
+    width: 750px;
+    background: url(../images/);
+}
+.sumer .left_wrap h1{}
+.sumer .left_wrap p{}
