@@ -1,118 +1,248 @@
 .intro {
-    width: 100%;
-    height: 100vh;
-    background: url(../images/intro_bg.jpg) center / cover;
-    position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../images/intro_bg.jpg) center / cover;
+  position: relative;
 }
-.intro .contents {}
+.intro .contents {
+}
 .intro .contents h1 {
-    width: 222px;
-    position: absolute;
-    top: 40%; left: 50%;
-    transform: translateX(-50%) rotate(0) scale(1);
-    animation: introani2 1s linear infinite alternate;
+  width: 222px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) rotate(0) scale(1);
+  animation: introani2 1s linear infinite alternate;
 }
-.intro .contents h1 img{
-    width: 100%;
+.intro .contents h1 img {
+  width: 100%;
 }
 .intro .contents .scroll_down {
-    width: 80px;
-    position: absolute;
-    bottom: 60px; left: 50%;
-    transform: translate(-50%, 0);
-    animation: introani1 0.5s linear infinite alternate;
+  width: 80px;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  animation: introani1 0.5s linear infinite alternate;
 }
 .intro .contents .scroll_down img {
-    width: 100%;
+  width: 100%;
 }
 .intro .snoopy_map {
-    width: 282px;
-    position: absolute;
-    bottom: 0; left: 10%;
-    transform: translateY(0);
-    animation: introani3 0.5s linear infinite alternate;
+  width: 282px;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  transform: translateY(0);
+  animation: introani3 0.5s linear infinite alternate;
 }
 .intro .snoopy_map img {
-    width: 100%;
+  width: 100%;
 }
 @keyframes introani1 {
-    from{
-        transform: translate(-50%, -5px);
-    }
-    to{
-        transform: translate(-50%, 5px);
-    }
+  from {
+    transform: translate(-50%, -5px);
+  }
+  to {
+    transform: translate(-50%, 5px);
+  }
 }
 @keyframes introani2 {
-    from {
-        transform: translateX(-50%) rotate(1deg) scale(0.95);
-    }
-    to {
-        transform: translateX(-50%) rotate(-1deg) scale(1);
-    }
+  from {
+    transform: translateX(-50%) rotate(1deg) scale(0.95);
+  }
+  to {
+    transform: translateX(-50%) rotate(-1deg) scale(1);
+  }
 }
 @keyframes introani3 {
-    from {
-        transform: translateY(2px);
-    }
-    to {
-        transform: translateY(-2px);
-    }
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
 }
 /* 1행 jeju--------------------------------------------------------------------------------------- */
-main {}
+main {
+}
 .jeju {
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    background: url(../images/jeju/jeju_bg.jpg) center / cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background: url(../images/jeju/jeju_bg.jpg) top / cover;
 }
-.jeju .jeju_container{
-    margin: 0 auto;
+.jeju .jeju_container {
+  padding: 92.5px 0;
+  margin: 0 auto;
 }
-.jeju .jeju_container .title{
-    margin-bottom: 60px;
+.jeju .jeju_container .title {
+  margin-bottom: 60px;
 }
-.jeju .jeju_container .title h2{
-    font-family: 'Gyeonggi_Title_Medium';
-    font-size: 1.563rem;
+.jeju .jeju_container .title h2 {
+  font-family: "Gyeonggi_Title_Medium";
+  font-size: 1.563rem;
 }
-.jeju .jeju_container .title h1{
-    font-family: 'Gyeonggi_Title_Medium';
-    font-size: 2.375rem;
-    margin-bottom: 20px;
+.jeju .jeju_container .title h1 {
+  font-family: "Gyeonggi_Title_Medium";
+  font-size: 2.375rem;
+  margin-bottom: 20px;
 }
-.jeju .jeju_container .title p{}
+.jeju .jeju_container .title p {
+}
 .jeju .jeju_container .jeju_slide {
-    width: max-content;
-    display: flex;
+  padding: 0 38.5px;
+  display: flex;
 }
-.jeju .jeju_container .jeju_slide li > a{
-    display: inline-block;
-    width: 323px;
-    border: 3px solid #000;
-    border-radius: 6px;
-    margin-right: 20px;
+.jeju .jeju_container .jeju_slide li {
+  width: calc((100% - 80px) / 5);
+  margin-right: 20px;
 }
-.jeju .jeju_container .jeju_slide li > a img{
-    width: 100%;
+.jeju .jeju_container .jeju_slide li:nth-child(6) {
+  display: none;
+}
+.jeju .jeju_container .jeju_slide li > a {
+  display: inline-block;
+  width: 100%;
+  border: 3px solid #000;
+  border-radius: 6px;
+  background: #fff;
+}
+.jeju .jeju_container .jeju_slide li > a img {
+  width: 100%;
 }
 .more_btn {
-    display: inline-block;
-    padding: 14px 48px;
-    font-weight: 500;
-    border: 2px solid #000;
-    margin-top: 60px;
+  display: inline-block;
+  padding: 14px 48px;
+  font-weight: 500;
+  border: 2px solid #000;
+  margin-top: 60px;
+  background: #fff;
 }
 /* 2행 summer -------------------------------------------------------------------- */
-.sumer {
-    height: 100vh;
-    background: #C2E2F9;
+.summer {
+  padding: 160px 65px 160px 80px;
+  background: #c2e2f9;
 }
-.sumer .left_wrap {
-    width: 750px;
-    background: url(../images/);
+.summer .summer_wrap {
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
 }
-.sumer .left_wrap h1{}
-.sumer .left_wrap p{}
+.summer .summer_wrap .left_wrap {
+  width: 750px;
+  background: url(../images/);
+}
+.summer .summer_wrap .left_wrap h1 {
+  font-family: "Gyeonggi_Title_Medium";
+  font-size: 2.75rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.summer .summer_wrap .left_wrap p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #fff;
+}
+.summer .summer_wrap .right_wrap {
+}
+.summer .summer_wrap .right_wrap .product_wrap {
+  display: flex;
+}
+.summer .summer_wrap .right_wrap .product_wrap .product {
+  background: #fff;
+  border: 1px solid blue;
+}
+.summer .summer_wrap .right_wrap .product_wrap .product > a {
+  display: inline-block;
+  width: 100%;
+}
+.summer .summer_wrap .right_wrap .product_wrap .product > a .product_img {
+  width: 100%;
+}
+.summer .summer_wrap .right_wrap .product_wrap .product > a .product_img img {
+  width: 100%;
+}
+.summer .summer_wrap .right_wrap .product_wrap .product > a .product_title {
+}
+.summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > p {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  > h2 {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  .color_chip {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  .color_chip
+  a {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  .price {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  .price
+  p {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  .price
+  p
+  del {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  .price
+  h3 {
+}
+.summer
+  .summer_wrap
+  .right_wrap
+  .product_wrap
+  .product
+  > a
+  .product_title
+  .price
+  h3
+  em {
+}

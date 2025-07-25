@@ -1,373 +1,440 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="스누피 가든 스토어에서 스누피와 함께 가드닝을 즐겁게!">
-    <meta name="keywords" content="스누피, 스누피가든, 가드닝, 제주도, 제주 스누피">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="스누피 가든 스토어에서 스누피와 함께 가드닝을 즐겁게!"
+    />
+    <meta
+      name="keywords"
+      content="스누피, 스누피가든, 가드닝, 제주도, 제주 스누피"
+    />
     <title>스누피가든 | Snoopy Garden</title>
     <!-- 폰트 -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        @font-face {
-            font-family: 'Gyeonggi_Title_Medium';
-            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff') format('woff');
-            font-weight: 500;
-            font-style: normal;
-        }
+      @font-face {
+        font-family: "Gyeonggi_Title_Medium";
+        src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff")
+          format("woff");
+        font-weight: 500;
+        font-style: normal;
+      }
     </style>
     <!-- 개별 CSS -->
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/common.css">
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
     <!-- javascript -->
     <script src="./scripts/active.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrap">
-        <section class="intro">
-            <div class="contents">
-                <h1><img src="./images/intro_text.png" alt=""></h1>
-                <button type="button" class="scroll_down" title="아래로 스크롤하세요!"><img src="./images/intro_arrow.png" alt=""></button>
+      <section class="intro">
+        <div class="contents">
+          <h1><img src="./images/intro_text.png" alt="" /></h1>
+          <button
+            type="button"
+            class="scroll_down"
+            title="아래로 스크롤하세요!"
+          >
+            <img src="./images/intro_arrow.png" alt="" />
+          </button>
+        </div>
+        <div class="snoopy_map">
+          <img src="./images/snoopy_map.png" alt="" />
+        </div>
+      </section>
+      <main>
+        <header>
+          <div class="header_ad">
+            <p>신규 회원 가입 시 2천원 적립금 즉시 지급!</p>
+            <a href="#" class="ad_close_btn"
+              ><img src="./images/ad_close_btn.png" alt="광고 닫기"
+            /></a>
+          </div>
+          <div class="title">
+            <div class="menu">
+              <a href="#"
+                ><img src="./images/icon_menu.png" alt="햄버거 메뉴"
+              /></a>
             </div>
-            <div class="snoopy_map"><img src="./images/snoopy_map.png" alt=""></div>
+            <h1>
+              <a href="#"><img src="./images/logo.png" alt="스누피가든" /></a>
+            </h1>
+            <ul class="gnb">
+              <li><a href="#">ALL</a></li>
+              <li><a href="#">BEST</a></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">GARDENING</a></li>
+              <li><a href="#">NEW</a></li>
+            </ul>
+            <div class="left_wrap">
+              <div class="search">
+                <input type="text" placeholder="검색어를 입력하세요." />
+                <button type="button" title="검색">
+                  <img src="./images/icon_search.png" alt="검색하기" />
+                </button>
+              </div>
+              <a href="#" class="mypage"
+                ><img src="./images/icon_mypage.png" alt="마이페이지"
+              /></a>
+              <a href="#" class="like"
+                ><img src="./images/icon_like.png" alt="찜한 상품 보기"
+              /></a>
+              <a href="#" class="cart"
+                ><img
+                  src="./images/icon_cart.png"
+                  alt="장바구니 담긴 상품 보기"
+              /></a>
+            </div>
+          </div>
+        </header>
+        <section class="jeju">
+          <!-- 배경 이미지 -->
+          <div class="jeju_container">
+            <div class="title">
+              <h2>JEJU</h2>
+              <h1>SNOOPY GARDEN</h1>
+              <p>제주도에 있는 세계 최초 '피너츠' 테마 가든</p>
+            </div>
+            <ul class="jeju_slide">
+              <li>
+                <a href="#">
+                  <img src="./images/jeju/img_jeju001.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/jeju/img_jeju002.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/jeju/img_jeju003.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/jeju/img_jeju004.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/jeju/img_jeju005.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/jeju/img_jeju006.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+            <a href="#" class="more_btn">상품 더보기</a>
+          </div>
         </section>
-        <main>
-            <header>
-                <div class="header_ad">
-                    <p>신규 회원 가입 시 2천원 적립금 즉시 지급!</p>
-                    <a href="#" class="ad_close_btn"><img src="./images/ad_close_btn.png" alt="광고 닫기"></a>
-                </div>
-                <div class="title">
-                    <div class="menu">
-                        <a href="#"><img src="./images/icon_menu.png" alt="햄버거 메뉴"></a>
-                    </div>
-                    <h1><a href="#"><img src="./images/logo.png" alt="스누피가든"></a></h1>
-                    <ul class="gnb">
-                        <li><a href="#">ALL</a></li>
-                        <li><a href="#">BEST</a></li>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">GARDENING</a></li>
-                        <li><a href="#">NEW</a></li>
-                    </ul>
-                    <div class="left_wrap">
-                        <div class="search">
-                            <input type="text" placeholder="검색어를 입력하세요.">
-                            <button type="button" title="검색"><img src="./images/icon_search.png" alt="검색하기"></button>
-                        </div>
-                        <a href="#" class="mypage"><img src="./images/icon_mypage.png" alt="마이페이지"></a>
-                        <a href="#" class="like"><img src="./images/icon_like.png" alt="찜한 상품 보기"></a>
-                        <a href="#" class="cart"><img src="./images/icon_cart.png" alt="장바구니 담긴 상품 보기"></a>
-                    </div>
-                </div>
-            </header>
-            <section class="jeju"><!-- 배경 이미지 -->
-                <div class="jeju_container">
-                    <div class="title">
-                        <h2>JEJU</h2>
-                        <h1>SNOOPY GARDEN</h1>
-                        <P>제주도에 있는 세계 최초 '피너츠' 테마 가든</P>
-                    </div>
-                    <ul class="jeju_slide">
-                        <li>
-                            <a href="#">
-                                <img src="./images/jeju/img_jeju001.jpg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./images/jeju/img_jeju002.jpg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./images/jeju/img_jeju003.jpg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./images/jeju/img_jeju004.jpg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./images/jeju/img_jeju005.jpg" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                    <a href="#" class="more_btn">상품 더보기</a>
-                </div>
-            </section>
-            <section class="summer">
-                <div class="left_wrap">
-                    <h1>HOT SUMMER DAY</h1>
-                    <p>무더운 여름,<br>스누피 가든이 준비한<br>쿨한 여름 아이템을 만나보세요!</p>
-                </div>
-                <div class="right_wrap">
-                    <div class="product_wrap">
-                        <a href="#" class="product product1">
-                            <div class="product_img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="product_title">
-                                <p>부드럽고 빠른 흡수력을 가진</p>
-                                <h2>75주년 퀵드라이 타월</h2>
-                                <div class="color_chip">
-                                    <a href="#" class="color color1"></a>
-                                    <a href="#" class="color color2"></a>
-                                    <a href="#" class="color color3"></a>
-                                    <a href="#" class="color color4"></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <h3>10,000원</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="product product2">
-                            <div class="product_img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="product_title">
-                                <p>캐릭터와 한글의 그래픽적 매력</p>
-                                <h2>피너츠갱 한글 티셔츠</h2>
-                                <div class="color_chip">
-                                    <a href="#" class="color color1"></a>
-                                    <a href="#" class="color color2"></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <p><del>42,000원</del></p>
-                                <h3><em>10%</em>10,000원</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="product product3">
-                            <div class="product_img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="product_title">
-                                <p>가볍고 휴대가 간편한</p>
-                                <h2>빼꼼 스누피 3단 우산</h2>
-                                <div class="color_chip">
-                                    <a href="#" class="color color1"></a>
-                                    <a href="#" class="color color2"></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <p><del>20,000원</del></p>
-                                <h3><em>10%</em>18,000원</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <a href="#" class="more_btn">상품 더보기</a>
-                </div>
-            </section>
-            <section class="product_slide swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide1">
-                        <div class="slide_product">
-                            <img src="" alt="">
-                        </div>
-                        <div class="slide_product_e">
-                            <h1>스누피 접시</h1>
-                            <p><del>24,000원</del></p>
-                            <h2><em>10%</em>21,600원</h2>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide2">
-                        <div class="slide_product">
-                            <img src="" alt="">
-                        </div>
-                        <div class="slide_product_e">
-                            <h1>스누피 접시</h1>
-                            <p><del>24,000원</del></p>
-                            <h2><em>10%</em>21,600원</h2>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide3">
-                        <div class="slide_product">
-                            <img src="" alt="">
-                        </div>
-                        <div class="slide_product_e">
-                            <h1>스누피 접시</h1>
-                            <p><del>24,000원</del></p>
-                            <h2><em>10%</em>21,600원</h2>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide4">
-                        <div class="slide_product">
-                            <img src="" alt="">
-                        </div>
-                        <div class="slide_product_e">
-                            <h1>스누피 접시</h1>
-                            <p><del>24,000원</del></p>
-                            <h2><em>10%</em>21,600원</h2>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide5">
-                        <div class="slide_product">
-                            <img src="" alt="">
-                        </div>
-                        <div class="slide_product_e">
-                            <h1>스누피 접시</h1>
-                            <p><del>24,000원</del></p>
-                            <h2><em>10%</em>21,600원</h2>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide6">
-                        <div class="slide_product">
-                            <img src="" alt="">
-                        </div>
-                        <div class="slide_product_e">
-                            <h1>스누피 접시</h1>
-                            <p><del>24,000원</del></p>
-                            <h2><em>10%</em>21,600원</h2>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="garden">
-                <div class="left_wrap">
-                    <div class="product_wrap">
-                        <a href="#" class="product product1">
-                            <div class="product_img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="product_title">
-                                <p>다공성 재질의 현무암</p>
-                                <h2>스누피가든 현무암 화분</h2>
-                                <div class="character_chip">
-                                    <a href="#" class="character character1">찰리 브라운</a>
-                                    <a href="#" class="character character2">우드스탁</a>
-                                    <a href="#" class="character character3">스누피</a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <h3>28,000원</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="product product2">
-                            <div class="product_img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="product_title">
-                                <p>코코넛 껍질의 에코 모종삽</p>
-                                <h2>제주 담은 모종삽</h2>
-                                <div class="color_chip">
-                                    <a href="#" class="color color1"></a>
-                                    <a href="#" class="color color2"></a>
-                                    <a href="#" class="color color3"></a>
-                                    <a href="#" class="color color4"></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <p><del>17,000원</del></p>
-                                <h3><em>20%</em>13,600원</h3>
-                            </div>
-                        </a>
-                        <a href="#" class="product product3">
-                            <div class="product_img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="product_title">
-                                <p>코코넛 껍질의 에코 화분</p>
-                                <h2>제주 담은 화분</h2>
-                                <div class="color_chip">
-                                    <a href="#" class="color color1"></a>
-                                    <a href="#" class="color color2"></a>
-                                    <a href="#" class="color color3"></a>
-                                    <a href="#" class="color color4"></a>
-                                </div>
-                            </div>
-                            <div class="price">
-                                <p><del>28,000원</del></p>
-                                <h3><em>20%</em>22,400원</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <a href="#" class="more_btn">상품 더보기</a>
-                </div>
-                <div class="right_wrap">
-                    <h1>GARDENING DAY</h1>
-                    <p>피너츠 친구들과<br>나만의 식물을<br>특별하게 가꿔보세요!</p>
-                </div>
-            </section>
-            <section class="insta">
-                <div class="insta_slide swiper">
-                    <h1>INSTAGRAM</h1>
-                    <a href="#">@snoopygardenkorea</a>
-                    <div class="swiper-wrapper">
-                        <a href="#" class="swiper-slide slide1"><img src="" alt=""></a>
-                        <a href="#" class="swiper-slide slide2"><img src="" alt=""></a>
-                        <a href="#" class="swiper-slide slide3"><img src="" alt=""></a>
-                        <a href="#" class="swiper-slide slide4"><img src="" alt=""></a>
-                        <a href="#" class="swiper-slide slide5"><img src="" alt=""></a>
-                        <a href="#" class="swiper-slide slide6"><img src="" alt=""></a>
-                        <a href="#" class="swiper-slide slide7"><img src="" alt=""></a>
-                        <a href="#" class="swiper-slide slide8"><img src="" alt=""></a>
-                    </div>
-                </div>
-            </section>
-            <section class="map">
-                <div class="map_container">
-                    <div class="map_wrap">
-                        <div class="map_title">
-                            <h2>제주특별자치도 제주시 구좌읍 금백조로 930 스누피가든</h2>
-                            <div class="transportation">
-                                <h3>대중교통</h3>
-                                <p>112번 제주국제공항 (표선, 성산, 남원) 승차 → 대천환승정류장 (세화방향) 하차 → 810-1번 대천환승정류장 승차 → 아부오름 하차</p>
-                                <p>121번 제주국제공항 (표선, 성산, 남원) 승차 → 대천환승정류장 (세화방향) 하차 → 721-2번 대천환승정류장 승차 → 아부오름 하차</p>
-                            </div>
-                            <div class="car">
-                                <h3>자가용</h3>
-                                <p>제주특별자치도 제주시 구좌읍 금백조로 930 스누피가든</p>
-                            </div>
-                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.1959274359356!2d126.77572551166271!3d33.444201649480185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d1bc32bdef82d%3A0x35c7b3cf574c06f5!2z7Iqk64iE7ZS86rCA65Og!5e0!3m2!1sko!2skr!4v1751940599999!5m2!1sko!2skr" width="945" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                        </div>
-                    </div>
-                </div>
-                <p class="snoopy_img"><img src="" alt=""></p>
-            </section>
-        </main>
-        <footer>
-            <div class="foot_container">
-                <ul class="fnb">
-                    <li><a href="#">회사소개</a></li>
-                    <li><a href="#">개인정보처리방침</a></li>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">이용안내</a></li>
-                </ul>
-                <div class="company">
-                    <p>상호명 : 주식회사 에스앤가든</p>
-                    <p>대표 : 김우석</p>
-                    <p>주소 : 2층 제주특별자치도 제주시 구좌읍 금백조로 916</p>
-                    <p>사업자등록번호 : 723-87-00711</p>
-                    <p>통신판매업신고 : 2022-제주구좌-0083 [사업자정보확인]</p>
-                    <p>개인정보보호책임자 : 에스앤가든 (store@snoopygarden.com)</p>
-                </div>
-                <div class="more_info">
-                    <div class="info info1">
-                        <h3>고객센터</h3>
-                        <p>064-805-1118</p>
-                    </div>
-                    <div class="info info2">
-                        <h3>운영시간</h3>
-                        <p>평일 | 09:00 - 18:00</p>
-                        <p>점심 | 12:00 - 13:00</p>
-                        <p>주말 및 공휴일 휴무</p>
-                    </div>
-                    <div class="info info3">
-                        <h3>입금 계좌안내</h3>
-                        <p>국민은행 897001-00-053072</p>
-                        <p>예금주 : (주)에스앤가든</p>
-                        <p>입금 시 주문자 성함 기재</p>
-                    </div>
-                    <p>PEANUTS and all related titles, logos and characters are trademarks of Peanuts Worldwide LLC.</p>
-                    <p>COPYRIGHT &copy; 2025 PEANUTS Worldwide LLC. All Rights Reserved.</p>
-                </div>
+        <section class="summer">
+          <div class="summer_wrap">
+            <div class="left_wrap">
+              <h1>HOT SUMMER DAY</h1>
+              <p>
+                무더운 여름,<br />스누피 가든이 준비한<br />쿨한 여름 아이템을
+                만나보세요!
+              </p>
             </div>
-        </footer>
+            <div class="right_wrap">
+              <ul class="product_wrap">
+                <li class="product product1">
+                  <a href="#">
+                    <div class="product_img">
+                      <img src="" alt="" />
+                    </div>
+                    <div class="product_title">
+                      <p>부드럽고 빠른 흡수력을 가진</p>
+                      <h2>75주년 퀵드라이 타월</h2>
+                      <div class="color_chip">
+                        <a href="#" class="color color1"></a>
+                        <a href="#" class="color color2"></a>
+                        <a href="#" class="color color3"></a>
+                        <a href="#" class="color color4"></a>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <h3>10,000원</h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="product product2">
+                  <a href="#">
+                    <div class="product_img">
+                      <img src="" alt="" />
+                    </div>
+                    <div class="product_title">
+                      <p>캐릭터와 한글의 그래픽적 매력</p>
+                      <h2>피너츠갱 한글 티셔츠</h2>
+                      <div class="color_chip">
+                        <a href="#" class="color color1"></a>
+                        <a href="#" class="color color2"></a>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p><del>42,000원</del></p>
+                      <h3><em>10%</em>10,000원</h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="product product3">
+                  <a href="#">
+                    <div class="product_img">
+                      <img src="" alt="" />
+                    </div>
+                    <div class="product_title">
+                      <p>가볍고 휴대가 간편한</p>
+                      <h2>빼꼼 스누피 3단 우산</h2>
+                      <div class="color_chip">
+                        <a href="#" class="color color1"></a>
+                        <a href="#" class="color color2"></a>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p><del>20,000원</del></p>
+                      <h3><em>10%</em>18,000원</h3>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <a href="#" class="more_btn">상품 더보기</a>
+            </div>
+          </div>
+        </section>
+        <section class="product_slide swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+              <div class="slide_product">
+                <img src="" alt="" />
+              </div>
+              <div class="slide_product_e">
+                <h1>스누피 접시</h1>
+                <p><del>24,000원</del></p>
+                <h2><em>10%</em>21,600원</h2>
+              </div>
+            </div>
+            <div class="swiper-slide slide2">
+              <div class="slide_product">
+                <img src="" alt="" />
+              </div>
+              <div class="slide_product_e">
+                <h1>스누피 접시</h1>
+                <p><del>24,000원</del></p>
+                <h2><em>10%</em>21,600원</h2>
+              </div>
+            </div>
+            <div class="swiper-slide slide3">
+              <div class="slide_product">
+                <img src="" alt="" />
+              </div>
+              <div class="slide_product_e">
+                <h1>스누피 접시</h1>
+                <p><del>24,000원</del></p>
+                <h2><em>10%</em>21,600원</h2>
+              </div>
+            </div>
+            <div class="swiper-slide slide4">
+              <div class="slide_product">
+                <img src="" alt="" />
+              </div>
+              <div class="slide_product_e">
+                <h1>스누피 접시</h1>
+                <p><del>24,000원</del></p>
+                <h2><em>10%</em>21,600원</h2>
+              </div>
+            </div>
+            <div class="swiper-slide slide5">
+              <div class="slide_product">
+                <img src="" alt="" />
+              </div>
+              <div class="slide_product_e">
+                <h1>스누피 접시</h1>
+                <p><del>24,000원</del></p>
+                <h2><em>10%</em>21,600원</h2>
+              </div>
+            </div>
+            <div class="swiper-slide slide6">
+              <div class="slide_product">
+                <img src="" alt="" />
+              </div>
+              <div class="slide_product_e">
+                <h1>스누피 접시</h1>
+                <p><del>24,000원</del></p>
+                <h2><em>10%</em>21,600원</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="garden">
+          <div class="left_wrap">
+            <div class="product_wrap">
+              <a href="#" class="product product1">
+                <div class="product_img">
+                  <img src="" alt="" />
+                </div>
+                <div class="product_title">
+                  <p>다공성 재질의 현무암</p>
+                  <h2>스누피가든 현무암 화분</h2>
+                  <div class="character_chip">
+                    <a href="#" class="character character1">찰리 브라운</a>
+                    <a href="#" class="character character2">우드스탁</a>
+                    <a href="#" class="character character3">스누피</a>
+                  </div>
+                </div>
+                <div class="price">
+                  <h3>28,000원</h3>
+                </div>
+              </a>
+              <a href="#" class="product product2">
+                <div class="product_img">
+                  <img src="" alt="" />
+                </div>
+                <div class="product_title">
+                  <p>코코넛 껍질의 에코 모종삽</p>
+                  <h2>제주 담은 모종삽</h2>
+                  <div class="color_chip">
+                    <a href="#" class="color color1"></a>
+                    <a href="#" class="color color2"></a>
+                    <a href="#" class="color color3"></a>
+                    <a href="#" class="color color4"></a>
+                  </div>
+                </div>
+                <div class="price">
+                  <p><del>17,000원</del></p>
+                  <h3><em>20%</em>13,600원</h3>
+                </div>
+              </a>
+              <a href="#" class="product product3">
+                <div class="product_img">
+                  <img src="" alt="" />
+                </div>
+                <div class="product_title">
+                  <p>코코넛 껍질의 에코 화분</p>
+                  <h2>제주 담은 화분</h2>
+                  <div class="color_chip">
+                    <a href="#" class="color color1"></a>
+                    <a href="#" class="color color2"></a>
+                    <a href="#" class="color color3"></a>
+                    <a href="#" class="color color4"></a>
+                  </div>
+                </div>
+                <div class="price">
+                  <p><del>28,000원</del></p>
+                  <h3><em>20%</em>22,400원</h3>
+                </div>
+              </a>
+            </div>
+            <a href="#" class="more_btn">상품 더보기</a>
+          </div>
+          <div class="right_wrap">
+            <h1>GARDENING DAY</h1>
+            <p>피너츠 친구들과<br />나만의 식물을<br />특별하게 가꿔보세요!</p>
+          </div>
+        </section>
+        <section class="insta">
+          <div class="insta_slide swiper">
+            <h1>INSTAGRAM</h1>
+            <a href="#">@snoopygardenkorea</a>
+            <div class="swiper-wrapper">
+              <a href="#" class="swiper-slide slide1"><img src="" alt="" /></a>
+              <a href="#" class="swiper-slide slide2"><img src="" alt="" /></a>
+              <a href="#" class="swiper-slide slide3"><img src="" alt="" /></a>
+              <a href="#" class="swiper-slide slide4"><img src="" alt="" /></a>
+              <a href="#" class="swiper-slide slide5"><img src="" alt="" /></a>
+              <a href="#" class="swiper-slide slide6"><img src="" alt="" /></a>
+              <a href="#" class="swiper-slide slide7"><img src="" alt="" /></a>
+              <a href="#" class="swiper-slide slide8"><img src="" alt="" /></a>
+            </div>
+          </div>
+        </section>
+        <section class="map">
+          <div class="map_container">
+            <div class="map_wrap">
+              <div class="map_title">
+                <h2>제주특별자치도 제주시 구좌읍 금백조로 930 스누피가든</h2>
+                <div class="transportation">
+                  <h3>대중교통</h3>
+                  <p>
+                    112번 제주국제공항 (표선, 성산, 남원) 승차 → 대천환승정류장
+                    (세화방향) 하차 → 810-1번 대천환승정류장 승차 → 아부오름
+                    하차
+                  </p>
+                  <p>
+                    121번 제주국제공항 (표선, 성산, 남원) 승차 → 대천환승정류장
+                    (세화방향) 하차 → 721-2번 대천환승정류장 승차 → 아부오름
+                    하차
+                  </p>
+                </div>
+                <div class="car">
+                  <h3>자가용</h3>
+                  <p>제주특별자치도 제주시 구좌읍 금백조로 930 스누피가든</p>
+                </div>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.1959274359356!2d126.77572551166271!3d33.444201649480185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d1bc32bdef82d%3A0x35c7b3cf574c06f5!2z7Iqk64iE7ZS86rCA65Og!5e0!3m2!1sko!2skr!4v1751940599999!5m2!1sko!2skr" width="945" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+              </div>
+            </div>
+          </div>
+          <p class="snoopy_img"><img src="" alt="" /></p>
+        </section>
+      </main>
+      <footer>
+        <div class="foot_container">
+          <ul class="fnb">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">이용안내</a></li>
+          </ul>
+          <div class="company">
+            <p>상호명 : 주식회사 에스앤가든</p>
+            <p>대표 : 김우석</p>
+            <p>주소 : 2층 제주특별자치도 제주시 구좌읍 금백조로 916</p>
+            <p>사업자등록번호 : 723-87-00711</p>
+            <p>통신판매업신고 : 2022-제주구좌-0083 [사업자정보확인]</p>
+            <p>개인정보보호책임자 : 에스앤가든 (store@snoopygarden.com)</p>
+          </div>
+          <div class="more_info">
+            <div class="info info1">
+              <h3>고객센터</h3>
+              <p>064-805-1118</p>
+            </div>
+            <div class="info info2">
+              <h3>운영시간</h3>
+              <p>평일 | 09:00 - 18:00</p>
+              <p>점심 | 12:00 - 13:00</p>
+              <p>주말 및 공휴일 휴무</p>
+            </div>
+            <div class="info info3">
+              <h3>입금 계좌안내</h3>
+              <p>국민은행 897001-00-053072</p>
+              <p>예금주 : (주)에스앤가든</p>
+              <p>입금 시 주문자 성함 기재</p>
+            </div>
+            <p>
+              PEANUTS and all related titles, logos and characters are
+              trademarks of Peanuts Worldwide LLC.
+            </p>
+            <p>
+              COPYRIGHT &copy; 2025 PEANUTS Worldwide LLC. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
-</html> 
+  </body>
+</html>

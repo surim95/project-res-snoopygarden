@@ -1,65 +1,149 @@
-@media screen and (max-width:1199px){
-    .wrap {
-        max-width: 1199px;
-        min-width: 760px;
-    }
-    .intro {
-        border: 1px solid aqua;
-    }
-    .intro .contents h1 {
-        width: 180px;
-    }
-    .intro .contents .scroll_down {
-        width: 60px;
-    }
-    .intro .snoopy_map {
-        width: 200px;
-        left: 6%;
-    }
-    /* 헤더 */
-    header .title {
-        padding: 0 40px;
-    }
-    header .title .menu {
-        display: block;
-    }
-    header .title .gnb{
-        display: none;
-    }
-    header .title h1{
-        position: absolute;
-        left: 50%; transform: translateX(-50%);
-    }
-    header .title .left_wrap .search{
-        display: none;
-    }
+@media screen and (max-width: 1440px) {
+  header .title .left_wrap .search input {
+    display: none;
+  }
+  header .title .left_wrap .search button {
+    right: 0;
+  }
 }
-@media screen and (max-width:759px){
-    .wrap {
-        max-width: 789px;
-        min-width: 320px;
-    }
-    .intro {
-        border: 1px solid blue;
-    }
-    .intro .contents h1 {
-        width: 140px;
-    }
-    .intro .contents .scroll_down {
-        width: 40px;
-    }
-    .intro .snoopy_map {
-        width: 160px;
-        left: 2%;
-    }
-    /* 헤더 */
-    header .title {
-        padding: 0 20px;
-    }
-    header .title .left_wrap a.like {
-        display: none;
-    }
-    header .title .left_wrap a.cart {
-        display: none;
-    }
+@media screen and (max-width: 1199px) {
+  .wrap {
+    max-width: 1199px;
+    min-width: 760px;
+  }
+  .intro {
+    border: 1px solid aqua;
+  }
+  .intro .contents h1 {
+    width: 180px;
+  }
+  .intro .contents .scroll_down {
+    width: 60px;
+  }
+  .intro .snoopy_map {
+    width: 200px;
+    left: 6%;
+  }
+  /* 헤더 */
+  header .title {
+    padding: 0 40px;
+  }
+  header .title .menu {
+    display: block;
+  }
+  header .title .gnb {
+    display: none;
+  }
+  header .title h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  header .title .left_wrap .search {
+    display: none;
+  }
+  /* 1행  jeju */
+  .jeju {
+    border: 1px solid aqua;
+    background: url(../images/jeju/jeju_bg.jpg) top;
+  }
+  .jeju .jeju_container {
+    padding: 60px 0;
+  }
+  .jeju .jeju_container .title {
+    margin-bottom: 40px;
+  }
+  .jeju .jeju_container .title h2 {
+    font-size: 1.375rem;
+  }
+  .jeju .jeju_container .title h1 {
+    font-size: 2.25rem;
+    margin-bottom: 16px;
+  }
+  .jeju .jeju_container .title p {
+    font-size: 0.938rem;
+  }
+  .jeju .jeju_container .jeju_slide {
+    padding: 0 60px;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .jeju .jeju_container .jeju_slide li {
+    width: calc((100% - 60px) / 2);
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
+  .jeju .jeju_container .jeju_slide li:nth-child(6) {
+    display: block;
+  }
+  .jeju .jeju_container .jeju_slide li:nth-child(2n) {
+    margin-right: 0;
+  }
+  .more_btn {
+    padding: 12px 38px;
+    font-size: 0.875rem;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 759px) {
+  .wrap {
+    max-width: 789px;
+    min-width: 320px;
+  }
+  .intro {
+    border: 1px solid blue;
+  }
+  .intro .contents h1 {
+    width: 140px;
+  }
+  .intro .contents .scroll_down {
+    width: 40px;
+  }
+  .intro .snoopy_map {
+    width: 160px;
+    left: 2%;
+  }
+  /* 헤더 */
+  header .title {
+    padding: 0 20px;
+  }
+  header .title .left_wrap a.like {
+    display: none;
+  }
+  header .title .left_wrap a.cart {
+    display: none;
+  }
+  /* 1행 jeju */
+  .jeju {
+    border: 1px solid blue;
+  }
+  .jeju .jeju_container {
+    padding: 40px 0;
+  }
+  .jeju .jeju_container .title {
+    margin-bottom: 20px;
+  }
+  .jeju .jeju_container .title h2 {
+    font-size: 1rem;
+  }
+  .jeju .jeju_container .title h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  .jeju .jeju_container .title p {
+    font-size: 0.875rem;
+  }
+  .jeju .jeju_container .jeju_slide {
+    padding: 0 20px;
+  }
+  .jeju .jeju_container .jeju_slide li {
+    width: calc((100% - 20px) / 2);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .more_btn {
+    padding: 10px 34px;
+    font-size: 0.75rem;
+    margin-top: 20px;
+  }
 }
