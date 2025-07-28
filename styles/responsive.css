@@ -48,7 +48,7 @@
     background: url(../images/jeju/jeju_bg.jpg) top;
   }
   .jeju .jeju_container {
-    padding: 60px 0;
+    padding: 100px 0;
   }
   .jeju .jeju_container .title {
     margin-bottom: 40px;
@@ -116,9 +116,6 @@
   /* 1행 jeju */
   .jeju {
     border: 1px solid blue;
-  }
-  .jeju .jeju_container {
-    padding: 40px 0;
   }
   .jeju .jeju_container .title {
     margin-bottom: 20px;
