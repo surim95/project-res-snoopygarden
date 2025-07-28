@@ -5,6 +5,9 @@
   header .title .left_wrap .search button {
     right: 0;
   }
+  .summer .summer_wrap .left_wrap {
+    padding: 100px 0 0 40px;
+  }
 }
 @media screen and (max-width: 1199px) {
   .wrap {
@@ -88,6 +91,29 @@
   .summer {
     border: 1px solid aqua;
   }
+  .summer .summer_wrap {
+    flex-flow: column nowrap;
+  }
+  .summer .summer_wrap .left_wrap {
+    width: 100%; height: 36vh;
+    padding: 60px 60px 0;
+    background: url(../images/summer/img_001.jpg) top / cover;
+  }
+  .summer .summer_wrap .right_wrap {
+    padding: 0 0 40px;
+    background: url(../images/summer/img_001.jpg) bottom / cover;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+  }
+  .summer .summer_wrap .left_wrap h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+  }
+  .summer .summer_wrap .left_wrap p {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 759px) {
   .wrap {
@@ -150,5 +176,82 @@
   /* summer */
   .summer {
     border: 1px solid blue;
+  }
+  .summer .summer_wrap .left_wrap {
+    width: 100%; height: 30vh;
+  }
+  .summer .summer_wrap .left_wrap h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  .summer .summer_wrap .left_wrap p {
+    font-size: 0.875rem;
+  }
+  .summer .summer_wrap .right_wrap {
+    width: 100%;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap{
+    width: 100%;
+    flex-flow: column;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap li:last-child {
+    margin: 0 auto;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a {
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_img {
+    width: 50%;
+    margin-right: 20px;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title {
+    margin-top: 20px;
+}
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > p {
+    font-size: 0.75rem;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > h2 {
+    margin: 6px 0 12px;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .price {
+    position: absolute; right: 20px; bottom: 20px;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .price p del {
+    font-size: 0.875rem;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .price h3 {
+      font-size: 1rem;
+    }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .price h3 em {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > p {
+    font-size: 0.5rem;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > h2 {
+    margin: 6px 0 12px;
+    font-size: 0.625rem;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title {
+    margin-top: 0;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .price p del {
+    font-size: 0.5rem;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .price h3 {
+      font-size: 0.625rem;
+    }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .price h3 em {
+    font-size: 0.625rem;
   }
 }

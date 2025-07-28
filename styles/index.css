@@ -128,11 +128,12 @@ main {
   border: 1px solid red;
   margin: 0 auto;
   display: flex;
+  align-items: center;
 }
 .summer .summer_wrap .left_wrap {
-  width: 750px; height: 920px;
-  padding: 160px 0 0 80px;
-  background: url(../images/summer/img_001.jpg) center / cover;
+  width: 39%; height: 100vh;
+  padding: 120px 60px 0 60px;
+  background: url(../images/summer/img_001.jpg) left center / cover;
 }
 .summer .summer_wrap .left_wrap h1 {
   font-family: "Gyeonggi_Title_Medium";
@@ -146,12 +147,13 @@ main {
   color: #fff;
 }
 .summer .summer_wrap .right_wrap {
-    padding: 151.5px 65px;
     display: flex; flex-flow: column nowrap;
     align-items: center;
+    padding: 0 65px;
 }
 .summer .summer_wrap .right_wrap .product_wrap {
     display: flex;
+    justify-content: space-between;
 }
 .summer .summer_wrap .right_wrap .product_wrap li:last-child {
     margin-right: 0;
@@ -161,6 +163,7 @@ main {
     background: #fff;
     border: 1px solid blue;
     margin-right: 40px;
+    border-radius: 3px;
 }
 .summer .summer_wrap .right_wrap .product_wrap .product > a {
     display: inline-block;
@@ -219,14 +222,7 @@ main {
     margin-top: 20px;
 }
 .summer .summer_wrap .right_wrap .product_wrap .product > a .price p {}
-.summer
-  .summer_wrap
-  .right_wrap
-  .product_wrap
-  .product
-  > a .price
-  p
-  del {
+.summer .summer_wrap .right_wrap .product_wrap .product > a .price p del {
     margin-bottom: 4px;
     font-size: 1.125rem;
     color: #aaa;
