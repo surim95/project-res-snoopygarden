@@ -1,5 +1,7 @@
 const homeSlide = new Swiper('.home_slide',{
-    slidesView: 5,
-    loop:true,
+    autoplay:{delay:2500,},
+    slidesPerView: 'auto',
+    loop: true,
     spaceBetween: 10,
+    centeredSlides: true,
 });
