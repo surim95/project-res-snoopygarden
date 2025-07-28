@@ -228,11 +228,9 @@ main {
 .home {
     width: 100%;
 }
-.home .home_slide {
-    padding: 40px 0;
-}
+.home .home_slide {}
 .home .home_slide .swiper-wrapper {
-    width: max-content;
+    width: 410px;
 }
 .home .home_slide .swiper-wrapper .swiper-slide {
     width: 410px;
