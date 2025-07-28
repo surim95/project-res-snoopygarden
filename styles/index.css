@@ -125,7 +125,6 @@ main {
   background: #c2e2f9;
 }
 .summer .summer_wrap {
-  border: 1px solid red;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -161,7 +160,6 @@ main {
 .summer .summer_wrap .right_wrap .product_wrap .product {
     width: calc((100% - 80px) / 3);
     background: #fff;
-    border: 1px solid blue;
     margin-right: 40px;
     border-radius: 3px;
 }
@@ -188,36 +186,16 @@ main {
     font-size: 1.125rem;
     font-weight: 500;
 }
-.summer
-  .summer_wrap
-  .right_wrap
-  .product_wrap
-  .product
-  > a
-  .product_title
-  .color_chip {
+.summer .summer_wrap .right_wrap .product_wrap .product > a .product_title .color_chip {
     display: flex;
     gap: 8px;
 }
-.summer
-  .summer_wrap
-  .right_wrap
-  .product_wrap
-  .product
-  > a
-  .product_title
-  .color_chip
-  p {
+.summer .summer_wrap .right_wrap .product_wrap .product > a .product_title .color_chip p {
     width: 12px; height: 12px;
     border-radius: 6px;
     background: #E60000;
 }
-.summer
-  .summer_wrap
-  .right_wrap
-  .product_wrap
-  .product
-  > a .price {
+.summer .summer_wrap .right_wrap .product_wrap .product > a .price {
     text-align: right;
     margin-top: 20px;
 }
@@ -241,8 +219,54 @@ main {
 .summer .summer_wrap .right_wrap .product_wrap .product1 > a .product_title .color_chip .color1 {background: #A1E0FF;}
 .summer .summer_wrap .right_wrap .product_wrap .product1 > a .product_title .color_chip .color2 {background: #FFF5BC;}
 .summer .summer_wrap .right_wrap .product_wrap .product1 > a .product_title .color_chip .color3 {background: #CBFF97;}
-.summer .summer_wrap .right_wrap .product_wrap .product1 > a .product_title .color_chip .color4 {background: #F0F0F0;}
+.summer .summer_wrap .right_wrap .product_wrap .product1 > a .product_titlhome.home_slidee .color_chip .color4 {background: #F0F0F0;}
 .summer .summer_wrap .right_wrap .product_wrap .product2 > a .product_title .color_chip .color1 {background: #fff; border: 1px solid #000;}
 .summer .summer_wrap .right_wrap .product_wrap .product2 > a .product_title .color_chip .color2 {background: #464964;}
 .summer .summer_wrap .right_wrap .product_wrap .product3 > a .product_title .color_chip .color1 {background: #F0DFCC;}
 .summer .summer_wrap .right_wrap .product_wrap .product3 > a .product_title .color_chip .color2 {background: #000;}
+/* 3행 product-slide =============================================== */
+.home {
+    width: 100%;
+}
+.home .home_slide {
+    padding: 40px 0;
+}
+.home .home_slide .swiper-wrapper {
+    width: max-content;
+}
+.home .home_slide .swiper-wrapper .swiper-slide {
+    width: 410px;
+    position: relative;
+}
+.home .home_slide .swiper-wrapper .swiper-slide .slide_product {}
+.home .home_slide .swiper-wrapper .swiper-slide .slide_product img {
+    width: 100%;
+}
+.home .home_slide .swiper-wrapper .swiper-slide .slide_product_e {
+    display: none;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.home .home_slide .swiper-wrapper .swiper-slide .slide_product_e h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.home .home_slide .swiper-wrapper .swiper-slide .slide_product_e h2 {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* product 개별 배경색 */
+.home .home_slide .swiper-wrapper .slide1 .slide_product {background: #8D862F;}
+.home .home_slide .swiper-wrapper .slide2 .slide_product {background: #C83E3D;}
+.home .home_slide .swiper-wrapper .slide3 .slide_product {background: #F9EAD4;}
+.home .home_slide .swiper-wrapper .slide4 .slide_product {background: #C2E2F9;}
+.home .home_slide .swiper-wrapper .slide5 .slide_product {background: #F0C03E;}
+.home .home_slide .swiper-wrapper .slide6 .slide_product {background: #DDE0D7;}
+.home .home_slide .swiper-wrapper .slide7 .slide_product {background: #BF561E;}
+.home .home_slide .swiper-wrapper .slide8 .slide_product {background: #E4BF53;}
+.home .home_slide .swiper-wrapper .slide9 .slide_product {background: #FFB700;}
+.home .home_slide .swiper-wrapper .slide10 .slide_product {background: #D2D0B7;}

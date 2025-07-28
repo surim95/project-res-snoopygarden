@@ -15,7 +15,6 @@
     min-width: 760px;
   }
   .intro {
-    border: 1px solid aqua;
   }
   .intro .contents h1 {
     width: 180px;
@@ -47,7 +46,6 @@
   }
   /* 1행  jeju */
   .jeju {
-    border: 1px solid aqua;
     background: url(../images/jeju/jeju_bg.jpg) top;
   }
   .jeju .jeju_container {
@@ -89,7 +87,6 @@
   }
   /* summer */
   .summer {
-    border: 1px solid aqua;
     padding: 0;
   }
   .summer .summer_wrap {
@@ -101,7 +98,7 @@
     background: url(../images/summer/img_001.jpg) top / cover;
   }
   .summer .summer_wrap .right_wrap {
-    padding: 0 0 40px;
+    padding: 0 40px 40px;
     background: url(../images/summer/img_001.jpg) bottom / cover;
   }
   .summer .summer_wrap .right_wrap .product_wrap .product {
@@ -122,7 +119,6 @@
     min-width: 320px;
   }
   .intro {
-    border: 1px solid blue;
   }
   .intro .contents h1 {
     width: 140px;
@@ -146,7 +142,6 @@
   }
   /* 1행 jeju */
   .jeju {
-    border: 1px solid blue;
   }
   .jeju .jeju_container .title {
     margin-bottom: 20px;
@@ -176,7 +171,6 @@
   }
   /* summer */
   .summer {
-    border: 1px solid blue;
     padding: 0;
   }
   .summer .summer_wrap .left_wrap {
@@ -186,12 +180,14 @@
   .summer .summer_wrap .left_wrap h1 {
     font-size: 2rem;
     margin-bottom: 12px;
+
   }
   .summer .summer_wrap .left_wrap p {
     font-size: 0.875rem;
   }
   .summer .summer_wrap .right_wrap {
     width: 100%;
+    padding: 0 0 40px;
   }
   .summer .summer_wrap .right_wrap .product_wrap{
     width: 100%;
