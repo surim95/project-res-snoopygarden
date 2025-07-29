@@ -456,24 +456,29 @@ main {
 }
 
 .home .home_slide .swiper-wrapper .slide6 .slide_product {
-  background: #dde0d7;
+  background: #f3f0dc;
 }
 
 .home .home_slide .swiper-wrapper .slide7 .slide_product {
-  background: #bf561e;
+  background: #dde0d7;
 }
 
 .home .home_slide .swiper-wrapper .slide8 .slide_product {
-  background: #e4bf53;
+  background: #bf561e;
 }
 
 .home .home_slide .swiper-wrapper .slide9 .slide_product {
-  background: #ffb700;
+  background: #e4bf53;
 }
 
 .home .home_slide .swiper-wrapper .slide10 .slide_product {
-  background: #d2d0b7;
+  background: #ffb700;
 }
+
+.home .home_slide .swiper-wrapper .slide11 .slide_product {
+  background: #fffded;
+}
+
 
 /* 4행 garden ===================================================================== */
 .garden {

@@ -98,7 +98,7 @@
   }
   .summer .summer_wrap .left_wrap {
     width: 100%;
-    height: 30vh;
+    height: 240px;
     padding: 60px 60px 0;
     background: none;
   }
@@ -133,14 +133,14 @@
   /* garden */
   .garden {
     padding: 0;
-    background: url(../images/garden/img_002.png) center / cover;
+    background: url(../images/garden/img_002.png) left / cover;
   }
   .garden .garden_wrap {
     flex-flow: column-reverse nowrap;
   }
   .garden .garden_wrap .right_wrap {
     width: 100%;
-    height: 30vh;
+    height: 240px;
     padding: 60px 60px 0;
     background: none;
   }
@@ -221,7 +221,7 @@
     padding: 0;
   }
   .summer .summer_wrap .left_wrap {
-    width: 100%;
+    width: 100%; height: 180px;
     padding: 20px;
   }
   .summer .summer_wrap .left_wrap h1 {
@@ -312,7 +312,7 @@
     padding: 0;
   }
   .garden .garden_wrap .right_wrap {
-    width: 100%;
+    width: 100%; height: 180px;
     padding: 20px;
   }
   .garden .garden_wrap .right_wrap h1 {
@@ -385,6 +385,10 @@
   .garden .garden_wrap .left_wrap .product_wrap .product > a .price h3 em {
     font-size: 1rem;
   }
+  .character_chip {
+    flex-flow: column nowrap;
+    gap: 4px;
+  }
 }
 @media screen and (max-width: 550px) {
   .summer
@@ -395,7 +399,7 @@
     > a
     .product_title
     > p {
-    font-size: 0.5rem;
+    /* font-size: 0.5rem; */
   }
   .summer
     .summer_wrap
@@ -406,12 +410,12 @@
     .product_title
     > h2 {
     margin: 6px 0 12px;
-    font-size: 0.625rem;
+    /* font-size: 0.625rem; */
   }
   .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title {
     margin-top: 0;
   }
-  .summer .summer_wrap .right_wrap .product_wrap .product > a .price p del {
+  /* .summer .summer_wrap .right_wrap .product_wrap .product > a .price p del {
     font-size: 0.5rem;
   }
   .summer .summer_wrap .right_wrap .product_wrap .product > a .price h3 {
@@ -419,7 +423,7 @@
   }
   .summer .summer_wrap .right_wrap .product_wrap .product > a .price h3 em {
     font-size: 0.625rem;
-  }
+  } */
   /* garden */
   .garden
     .garden_wrap
@@ -440,12 +444,12 @@
     .product_title
     > h2 {
     margin: 6px 0 12px;
-    font-size: 0.625rem;
+    /* font-size: 0.625rem; */
   }
   .garden .garden_wrap .left_wrap .product_wrap .product > a .product_title {
     margin-top: 0;
   }
-  .garden .garden_wrap .left_wrap .product_wrap .product > a .price p del {
+  /* .garden .garden_wrap .left_wrap .product_wrap .product > a .price p del {
     font-size: 0.5rem;
   }
   .garden .garden_wrap .left_wrap .product_wrap .product > a .price h3 {
@@ -453,5 +457,5 @@
   }
   .garden .garden_wrap .left_wrap .product_wrap .product > a .price h3 em {
     font-size: 0.625rem;
-  }
+  } */
 }
