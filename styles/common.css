@@ -95,3 +95,18 @@ header .title .left_wrap a {
 header .title .left_wrap a img{
     width: 100%;
 }
+/* footer */
+footer {
+    background: #6C8E68;
+}
+footer .foot_container {}
+footer .foot_container .fnb {}
+footer .foot_container .fnb li {}
+footer .foot_container .fnb li a {color: #fff;}
+footer .foot_container .company {}
+footer .foot_container .company p {color: #fff;}
+footer .foot_container .more_info {}
+footer .foot_container .more_info .info {}
+footer .foot_container .more_info .info h3 {color: #fff;}
+footer .foot_container .more_info .info p {color: #fff;}
+footer .foot_container .more_info > p {color: #fff;}

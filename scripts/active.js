@@ -13,3 +13,23 @@ const headerAd = document.querySelector('.header_ad');
 adCloseBtn.addEventListener('click',()=>{
     headerAd.remove();
 })
+
+const mapTitle = document.querySelector('.map_title');
+const mapGoogle = document.querySelector('.map_wrap iframe');
+const mapBtn = document.querySelector('.map_title_btn');
+let titleStatus = true;
+mapBtn.addEventListener('click',()=>{
+    if(titleStatus) {
+        mapTitle.style.opacity = 0;
+        mapBtn.style.transform = 'scale(-1)';
+        mapBtn.style.color = '#FFA600';
+        mapBtn.style.top = '20px';
+        titleStatus = false;
+    } else {
+        mapTitle.style.opacity = 1;
+        mapBtn.style.transform = 'scale(1)';
+        mapBtn.style.color = '#FFF';
+        mapBtn.style.top = '140px';
+        titleStatus = true;
+    }
+})

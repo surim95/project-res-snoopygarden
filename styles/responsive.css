@@ -6,10 +6,10 @@
     right: 0;
   }
   .summer .summer_wrap .left_wrap {
-    padding: 100px 0 0 40px;
+    padding: 100px 0 0 60px;
   }
   .garden .garden_wrap .right_wrap {
-    padding: 100px 40px 0 0;
+    padding: 100px 60px 0 0;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -55,7 +55,7 @@
     padding: 100px 0;
   }
   .jeju .jeju_container .title {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   .jeju .jeju_container .title h2 {
     font-size: 1.375rem;
@@ -86,7 +86,7 @@
   .more_btn {
     padding: 12px 38px;
     font-size: 0.875rem;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   /* summer */
   .summer {
@@ -103,12 +103,15 @@
     background: none;
   }
   .summer .summer_wrap .right_wrap {
-    padding: 0 40px 40px;
+    padding: 0 60px 60px;
     background: none;
   }
   .summer .summer_wrap .right_wrap .product_wrap .product {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
+  }
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > h2 {
+    font-size: 1rem;
   }
   .summer .summer_wrap .left_wrap h1 {
     font-size: 2.5rem;
@@ -117,6 +120,7 @@
   .summer .summer_wrap .left_wrap p {
     font-size: 1rem;
   }
+  
   /* home */
   .home {
     padding: 30px 0;
@@ -145,12 +149,15 @@
     background: none;
   }
   .garden .garden_wrap .left_wrap {
-    padding: 0 40px 40px;
+    padding: 0 60px 60px;
     background: none;
   }
   .garden .garden_wrap .left_wrap .product_wrap .product {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
+  }
+  .garden .garden_wrap .left_wrap .product_wrap .product > a .product_title > h2 {
+    font-size: 1rem;
   }
   .garden .garden_wrap .right_wrap h1 {
     font-size: 2.5rem;
@@ -158,6 +165,22 @@
   }
   .garden .garden_wrap .right_wrap p {
     font-size: 1rem;
+  }
+  .character_chip {
+    flex-flow: row wrap;
+  }
+  /* insta */
+  .insta {
+    padding: 60px 0;
+  }
+  .insta .insta_slide {
+    margin-top: 60px;
+  }
+  .insta .insta_slide .swiper-wrapper .swiper-slide {
+    width: 280px;
+  }
+  .insta .insta_slide .swiper-wrapper .swiper-slide a {
+    width: 280px;
   }
 }
 @media screen and (max-width: 759px) {
@@ -222,7 +245,7 @@
   }
   .summer .summer_wrap .left_wrap {
     width: 100%; height: 180px;
-    padding: 20px;
+    padding: 40px;
   }
   .summer .summer_wrap .left_wrap h1 {
     font-size: 2rem;
@@ -233,7 +256,7 @@
   }
   .summer .summer_wrap .right_wrap {
     width: 100%;
-    padding: 0 0 40px;
+    padding: 0 0 60px;
   }
   .summer .summer_wrap .right_wrap .product_wrap {
     width: 100%;
@@ -313,7 +336,7 @@
   }
   .garden .garden_wrap .right_wrap {
     width: 100%; height: 180px;
-    padding: 20px;
+    padding: 40px;
   }
   .garden .garden_wrap .right_wrap h1 {
     font-size: 2rem;
@@ -324,7 +347,7 @@
   }
   .garden .garden_wrap .left_wrap {
     width: 100%;
-    padding: 0 0 40px;
+    padding: 0 0 60px;
   }
   .garden .garden_wrap .left_wrap .product_wrap {
     width: 100%;
@@ -389,16 +412,28 @@
     flex-flow: column nowrap;
     gap: 4px;
   }
+  /* insta */
+  .insta {
+    padding: 60px 0;
+  }
+  .insta h1 {
+    font-size: 2rem;
+  }
+  .insta > a {
+    font-size: 0.875rem;
+  }
+  .insta .insta_slide {
+    margin-top: 20px;
+  }
+  .insta .insta_slide .swiper-wrapper .swiper-slide {
+    width: 200px;
+  }
+  .insta .insta_slide .swiper-wrapper .swiper-slide a {
+    width: 200px;
+  }
 }
 @media screen and (max-width: 550px) {
-  .summer
-    .summer_wrap
-    .right_wrap
-    .product_wrap
-    .product
-    > a
-    .product_title
-    > p {
+  .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > p {
     /* font-size: 0.5rem; */
   }
   .summer

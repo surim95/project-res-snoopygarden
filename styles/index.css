@@ -146,6 +146,11 @@ main {
   margin-top: 60px;
   background: #fff;
 }
+.more_btn:hover {
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+}
 
 /* 2행 summer -------------------------------------------------------------------- */
 .summer {
@@ -206,12 +211,15 @@ main {
   padding: 20px;
   width: 100%;
 }
-
 .summer .summer_wrap .right_wrap .product_wrap .product > a .product_img {
   border: 3px solid #000;
   border-radius: 3px;
+  display: flex;
+  overflow: hidden;
 }
-
+.summer .summer_wrap .right_wrap .product_wrap .product > a .product_img:hover img {
+  transform: scale(1.1);
+}
 .summer .summer_wrap .right_wrap .product_wrap .product > a .product_img img {
   width: 100%;
 }
@@ -400,6 +408,7 @@ main {
 
 .home .home_slide .swiper-wrapper {
   width: 410px;
+  transition-timing-function: linear;
 }
 
 .home .home_slide .swiper-wrapper .swiper-slide {
@@ -408,8 +417,12 @@ main {
 .home .home_slide .swiper-wrapper .swiper-slide .slide_product {
   width: 410px;
   height: 410px;
+  overflow: hidden;
 }
-
+.home .home_slide .swiper-wrapper .swiper-slide .slide_product:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.05);
+}
 .home .home_slide .swiper-wrapper .swiper-slide .slide_product img {
   width: 100%;
 }
@@ -544,6 +557,10 @@ main {
 .garden .garden_wrap .left_wrap .product_wrap .product > a .product_img {
   border: 3px solid #000;
   border-radius: 3px;
+  overflow: hidden;
+}
+.garden .garden_wrap .left_wrap .product_wrap .product > a .product_img:hover img {
+  transform: scale(1.1);
 }
 
 .garden .garden_wrap .left_wrap .product_wrap .product > a .product_img img {
@@ -618,6 +635,7 @@ main {
 }
 /* colorchip */
 .character_chip {
+  width: max-content;
   display: flex;
 }
 .character_chip .character {
@@ -718,41 +736,100 @@ main {
 }
 /* 5행 insta =========================================================================== */
 .insta {
+  background: #F5F5F5;
+  padding: 156.5px 0;
 }
-.insta .insta_slide {
+.insta {
+  text-align: center;
 }
-.insta .insta_slide {
+.insta h1 {
+  font-family: "Gyeonggi_Title_Medium";
+  font-size: 2.375rem;
 }
-.insta .insta_slide h1 {
-}
-.insta .insta_slide > a {
-}
+.insta > a {}
+.insta .insta_slide {margin-top: 80px;}
 .insta .insta_slide .swiper-wrapper {
+  width: 100%;
 }
-.insta .insta_slide .swiper-wrapper a {
+.insta .insta_slide .swiper-wrapper .swiper-slide {
+  width: 320px;
+  transition-timing-function: linear;
 }
-.insta .insta_slide .swiper-wrapper a img {
+.insta .insta_slide .swiper-wrapper .swiper-slide a {
+  display: inline-block;
+}
+.insta .insta_slide .swiper-wrapper .swiper-slide a img {
+  width: 100%;
 }
 /* 6행 map =============================================================================== */
 .map {
+  width: 100%;
+  padding: 80px 0;
+  background: url(../images/jeju/jeju_bg.jpg) top / cover;
 }
 .map .map_container {
+  display: flex;
+  justify-content: center;
 }
 .map .map_container .map_wrap {
+  position: relative; height: 500px;
+  margin-right: 200px;
 }
 .map .map_container .map_wrap .map_title {
+  position: relative;
+  background: rgba(255, 166, 0, 0.8);
+  padding: 20px;
+  z-index: 2;
 }
 .map .map_container .map_wrap .map_title h2 {
+  color: #fff;
+  font-size: 1.125rem;
+  margin-bottom: 12px;
+  line-height: 1.8;
+  font-weight: 500;
 }
 .map .map_container .map_wrap .map_title .transport {
+  display: flex;
 }
 .map .map_container .map_wrap .map_title .transport h3 {
+  margin-right: 20px;
+  color: #fff;
+  line-height: 1.8;
 }
-.map .map_container .map_wrap .map_title .transport p {
+.map .map_container .map_wrap .map_title .transport .transport_p {}
+.map .map_container .map_wrap .map_title .transport .transport_p p {
+  color: #fff;
+  line-height: 1.8;
 }
 .map .map_container .map_wrap .map_title .car {
+  display: flex;
 }
 .map .map_container .map_wrap .map_title .car h3 {
+  color: #fff;
+  margin-right: 34px;
+  line-height: 1.8;
 }
-.map .map_container .map_wrap .map_title .car p {
+.map .map_container .map_wrap .map_title .car .car_p {}
+.map .map_container .map_wrap .map_title .car .car_p p {
+  color: #fff;
+  line-height: 1.8;
+}
+.map .map_container .map_wrap .map_title_btn {
+  position: absolute;
+  z-index: 5; right: 20px; top: 140px;
+  color: #fff;
+  transform: scale(1);
+}
+.map .map_container .map_wrap iframe {
+  position: absolute; left: 0; top: 0;
+  z-index: 1;
+  width: 100%; height: 500px;
+}
+.map .map_container .snoopy_img {
+  width: 255px; height: 307px;
+  border: 1px solid red;
+  align-self: flex-end;
+}
+.map .map_container .snoopy_img img {
+  width: 100%;
 }
