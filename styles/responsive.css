@@ -11,6 +11,30 @@
   .garden .garden_wrap .right_wrap {
     padding: 100px 60px 0 0;
   }
+  .map {
+    padding: 60px;
+  }
+  .map .map_container .map_wrap {
+    margin-right: 100px;
+  }
+  .map .map_container .map_wrap .map_title .transport {
+    flex-flow: column nowrap;
+  }
+  .map .map_container .map_wrap .map_title .transport h3 {
+    font-size: 0.938rem;
+  }
+  .map .map_container .map_wrap .map_title .transport .transport_p p {
+    font-size: 0.938rem;
+  }
+  .map .map_container .map_wrap .map_title .car {
+    flex-flow: column nowrap;
+  }
+  .map .map_container .map_wrap .map_title .car h3 {
+    font-size: 0.938rem;
+  }
+  .map .map_container .map_wrap .map_title .car .car_p p {
+    font-size: 0.938rem;
+  }
 }
 @media screen and (max-width: 1199px) {
   .wrap {
@@ -181,6 +205,24 @@
   }
   .insta .insta_slide .swiper-wrapper .swiper-slide a {
     width: 280px;
+  }
+  /* map */
+  .map .map_container {
+    justify-content: space-between;
+  }
+  .map .map_container .map_wrap {
+    width: 100%;
+    margin-right: 100px;
+  }
+  .map .map_container .map_wrap .map_title h2 {
+    font-size: 1.063rem;
+  }
+  .map .map_container .map_wrap .map_title .transport h3 {font-size: 0.875rem;}
+  .map .map_container .map_wrap .map_title .transport .transport_p p {font-size: 0.875rem;}
+  .map .map_container .map_wrap .map_title .car h3 {font-size: 0.875rem;}
+  .map .map_container .map_wrap .map_title .car .car_p p {font-size: 0.875rem;}
+  .map .map_container .map_wrap .map_title_btn {
+    font-size: 1.063rem;
   }
 }
 @media screen and (max-width: 759px) {
@@ -431,6 +473,30 @@
   .insta .insta_slide .swiper-wrapper .swiper-slide a {
     width: 200px;
   }
+  /* map */
+  .map {
+    padding: 20px;
+  }
+  .map .map_container .map_wrap {
+    width: 100%;
+    margin-right: 20px;
+    height: 300px
+  }
+  .map .map_container .map_wrap .map_title h2 {
+    font-size: 1.063rem;
+  }
+  .map .map_container .map_wrap .map_title {
+    padding: 10px 30px 10px 10px;
+  }
+  .map .map_container .map_wrap iframe {
+    height: 300px;
+  }
+  .map .map_container .snoopy_img {
+    display: none;
+  }
+  .map .map_container .map_wrap .map_title_btn {
+    top: 10px; right: 10px;
+  }
 }
 @media screen and (max-width: 550px) {
   .summer .summer_wrap .right_wrap .product_wrap .product > a .product_title > p {
@@ -493,4 +559,5 @@
   .garden .garden_wrap .left_wrap .product_wrap .product > a .price h3 em {
     font-size: 0.625rem;
   } */
+  
 }

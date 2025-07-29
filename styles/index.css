@@ -772,13 +772,14 @@ main {
   justify-content: center;
 }
 .map .map_container .map_wrap {
+  width: 49.2%;
   position: relative; height: 500px;
   margin-right: 200px;
 }
 .map .map_container .map_wrap .map_title {
   position: relative;
   background: rgba(255, 166, 0, 0.8);
-  padding: 20px;
+  padding: 20px 40px 20px 20px;
   z-index: 2;
 }
 .map .map_container .map_wrap .map_title h2 {
@@ -816,9 +817,10 @@ main {
 }
 .map .map_container .map_wrap .map_title_btn {
   position: absolute;
-  z-index: 5; right: 20px; top: 140px;
+  z-index: 5; right: 20px; top: 20px;
   color: #fff;
   transform: scale(1);
+  line-height: 1.8;
 }
 .map .map_container .map_wrap iframe {
   position: absolute; left: 0; top: 0;
@@ -826,8 +828,7 @@ main {
   width: 100%; height: 500px;
 }
 .map .map_container .snoopy_img {
-  width: 255px; height: 307px;
-  border: 1px solid red;
+  width: 255px;
   align-self: flex-end;
 }
 .map .map_container .snoopy_img img {

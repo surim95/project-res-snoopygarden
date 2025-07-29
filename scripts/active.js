@@ -20,16 +20,17 @@ const mapBtn = document.querySelector('.map_title_btn');
 let titleStatus = true;
 mapBtn.addEventListener('click',()=>{
     if(titleStatus) {
-        mapTitle.style.opacity = 0;
+        mapTitle.style.display = 'none';
         mapBtn.style.transform = 'scale(-1)';
+        mapGoogle.style.position = 'static';
         mapBtn.style.color = '#FFA600';
-        mapBtn.style.top = '20px';
         titleStatus = false;
     } else {
+        mapTitle.style.display = 'block';
         mapTitle.style.opacity = 1;
         mapBtn.style.transform = 'scale(1)';
+        mapGoogle.style.position = 'absolute';
         mapBtn.style.color = '#FFF';
-        mapBtn.style.top = '140px';
         titleStatus = true;
     }
 })
