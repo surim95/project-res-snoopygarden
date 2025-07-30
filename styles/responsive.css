@@ -493,7 +493,10 @@
   }
   /* map */
   .map {
-    padding: 20px;
+    padding: 40px;
+  }
+  .map .map_container{
+    display: block;
   }
   .map .map_container .map_wrap {
     width: 100%;
